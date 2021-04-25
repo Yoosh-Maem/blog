@@ -1,11 +1,12 @@
-import React from 'react';
-
+import React from "react";
+import BlogNavbar from "../components/BlogNavbar";
+import { Container } from "react-bootstrap";
 
 function Home() {
   return (
-    <div>
-      메인화면입니다
-    </div>
+    <Container>
+      <BlogNavbar />
+    </Container>
   );
 }
 
