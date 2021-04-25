@@ -1,12 +1,12 @@
 import React from "react";
 import BlogNavbar from "../components/BlogNavbar";
-import { Container } from "react-bootstrap";
 
 function Home() {
   return (
-    <Container>
+    <div class="wapper">
       <BlogNavbar />
-    </Container>
+      <div class="contents"></div>
+    </div>
   );
 }
 
