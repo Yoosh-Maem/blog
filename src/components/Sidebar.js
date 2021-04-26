@@ -47,7 +47,7 @@ const Sidebar = () => {
             0. 시작하기 앞서
           </li>
           <ul class="sidebar-index-content">
-            <Link>
+            <Link to="/JsIndex0">
               <li>0-1. 자바스크립트란?</li>
             </Link>
             <Link>
@@ -85,29 +85,25 @@ const Sidebar = () => {
           </li>
           <ul class="sidebar-index-content">
             <Link>
-              <li>2-1. 클래스</li>{" "}
+              <li>2-1. 클래스</li>
             </Link>
             <Link>
-              {" "}
-              <li>2-2. 생성자</li>{" "}
+              <li>2-2. 생성자</li>
             </Link>
             <Link>
-              <li>2-3. 캡슐화</li>{" "}
+              <li>2-3. 캡슐화</li>
             </Link>
             <Link>
-              {" "}
-              <li>2-4. 집합</li>{" "}
+              <li>2-4. 집합</li>
             </Link>
             <Link>
-              <li>2-5. 상속</li>{" "}
+              <li>2-5. 상속</li>
             </Link>
             <Link>
-              {" "}
-              <li>2-6. 스코프와 호이스팅</li>{" "}
+              <li>2-6. 스코프와 호이스팅</li>
             </Link>
             <Link>
-              {" "}
-              <li>2-7. 클로저</li>{" "}
+              <li>2-7. 클로저</li>
             </Link>
           </ul>
           <li class="sidebar-index" onClick={indexOnClick}>
@@ -115,24 +111,20 @@ const Sidebar = () => {
           </li>
           <ul class="sidebar-index-content">
             <Link>
-              {" "}
-              <li>3-1. 개요</li>{" "}
+              <li>3-1. 개요</li>
             </Link>
             <Link>
-              {" "}
-              <li>3-2. 이벤트 기반 비동기 방식</li>{" "}
+              <li>3-2. 이벤트 기반 비동기 방식</li>
             </Link>
             <Link>
-              {" "}
-              <li>3-3. 그 외 특징들</li>{" "}
+              <li>3-3. 그 외 특징들</li>
             </Link>
             <Link>
-              {" "}
-              <li>3-4. 아키텍처</li>{" "}
+              <li>3-4. 아키텍처</li>
             </Link>
           </ul>
           <Link>
-            <li class="">4. Node.js 설치</li>{" "}
+            <li class="">4. Node.js 설치</li>
           </Link>
 
           <li class="sidebar-index" onClick={indexOnClick}>
@@ -140,14 +132,13 @@ const Sidebar = () => {
           </li>
           <ul class="sidebar-index-content">
             <Link>
-              {" "}
-              <li>5-1. 웹 서버</li>{" "}
+              <li>5-1. 웹 서버</li>
             </Link>
             <Link>
-              <li>5-2. 파일 입출력</li>{" "}
+              <li>5-2. 파일 입출력</li>
             </Link>
             <Link>
-              <li>5-2. 비동기 이벤트</li>{" "}
+              <li>5-2. 비동기 이벤트</li>
             </Link>
           </ul>
           <li class="sidebar-index" onClick={indexOnClick}>
@@ -155,16 +146,16 @@ const Sidebar = () => {
           </li>
           <ul class="sidebar-index-content">
             <Link>
-              <li>6-1. 노드의 모듈화 개념</li>{" "}
+              <li>6-1. 노드의 모듈화 개념</li>
             </Link>
             <Link>
-              <li>6-2. 전역 객체</li>{" "}
+              <li>6-2. 전역 객체</li>
             </Link>
             <Link>
-              <li>6-3. 모듈의 종류</li>{" "}
+              <li>6-3. 모듈의 종류</li>
             </Link>
             <Link>
-              <li>6-4. 기본 모듈들 사용법</li>{" "}
+              <li>6-4. 기본 모듈들 사용법</li>
             </Link>
           </ul>
         </ul>
