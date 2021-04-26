@@ -1,0 +1,25 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  list-style: none;
+}
+
+.sidebar-title,
+.sidebar-index {
+  cursor: pointer;
+}
+
+.sidebar-content,
+.sidebar-index-content {
+  display: none;
+  list-style: none;
+}
+
+.sidebar-index-content-link {
+  display: block;
+}
+
+.sidebar-index-content Link {
+  display: block;
+}
