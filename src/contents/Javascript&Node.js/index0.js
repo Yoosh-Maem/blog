@@ -1,6 +1,6 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
-import BlogNavbar from "../../components/BlogNavbar";
+import MainHeader from "../../components/MainHeader";
 import Sidebar from "../../components/Sidebar";
 import { render } from "react-dom";
 import "../../components/common.css";
@@ -131,7 +131,7 @@ const JsIndex0 = () => {
 
   return (
     <div className="wrapper">
-      <BlogNavbar />
+      <MainHeader />
       <div className="container">
         <Sidebar />
         <div className="contents">
