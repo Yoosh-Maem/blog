@@ -1,7 +1,7 @@
 import React from "react";
 import { HashRouter, Route } from "react-router-dom";
 import Home from "./routes/Home";
-import JsIndex0 from "./contents/Javascript&Node.js/index0";
+import JsIndex0 from "./contents/Javascript&Node.js/JsIndex0";
 
 function App() {
   return (
