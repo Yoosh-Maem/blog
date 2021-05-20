@@ -9,11 +9,19 @@
 .sidebar-index {
   cursor: pointer;
 }
+.sidebar-title {
+  font-size: 0.9rem;
+}
+.sidebar-index {
+  color: black;
+  font-size: 0.8rem;
+}
 
 .sidebar-content,
 .sidebar-index-content {
   display: none;
   list-style: none;
+  padding: 0;
 }
 
 .sidebar-index-content-link {

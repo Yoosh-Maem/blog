@@ -22,80 +22,64 @@ const Sidebar = () => {
     }
   };
 
-  const indexOnClick = (event) => {
-    var index = document.getElementsByClassName("sidebar-index");
-    var content = document.getElementsByClassName("sidebar-index-content");
+  // const indexOnClick = (event) => {
+  //   var index = document.getElementsByClassName("sidebar-index");
+  //   var content = document.getElementsByClassName("sidebar-index-content");
 
-    for (var i = 0; i < index.length; i++) {
-      if (index[i] === event.target) {
-        if (content[i].style.display == "block") {
-          content[i].style.display = "none";
-        } else {
-          content[i].style.display = "block";
-        }
-      }
-    }
-  };
+  //   for (var i = 0; i < index.length; i++) {
+  //     if (index[i] === event.target) {
+  //       if (content[i].style.display == "block") {
+  //         content[i].style.display = "none";
+  //       } else {
+  //         content[i].style.display = "block";
+  //       }
+  //     }
+  //   }
+  // };
   return (
     <ul class="sidebar">
       <li class="sidebar-item">
         <span class="sidebar-title" onClick={menuClick}>
-          자바스크립트 & node.js
+          자바스크립트
         </span>
         <ul class="sidebar-content">
         
-          <Link to="/JsIndex0">
-            <li class="">0. 시작하기 앞서</li>
+          <Link to="/JsIndex0"  style={{ textDecoration: 'none' }}>
+            <li class="sidebar-index">0. 시작하기 앞서</li>
           </Link>
     
-          <Link>
-            <li class="">  1. 자바스크립트 기초</li>
+          <Link to="/JsIndex0"  style={{ textDecoration: 'none' }}>
+            <li class="sidebar-index">  1. 자바스크립트 기초</li>
           </Link>
-          <Link>
-            <li class="">2. 객체지향 자바스크립트</li>
+          <Link to="/JsIndex0"  style={{ textDecoration: 'none' }}>
+            <li class="sidebar-index">2. 객체지향 자바스크립트</li>
           </Link>
          
-          <Link>
-            <li class="">3. Node.js 소개</li>
+          <Link to="/JsIndex0"  style={{ textDecoration: 'none' }}>
+            <li class="sidebar-index">3. Node.js 소개</li>
           </Link>
-          <Link>
-            <li class="">4. Node.js 설치</li>
+          <Link to="/JsIndex0"  style={{ textDecoration: 'none' }}>
+            <li class="sidebar-index" >4. Node.js 설치</li>
           </Link>
       
          
-          <Link>
-            <li class="">5. Node.js 간단한 실습</li>
+          <Link to="/JsIndex0"  style={{ textDecoration: 'none' }}>
+            <li class="sidebar-index">5. Node.js 간단한 실습</li>
           </Link>
           
-          <Link>
-            <li class=""> 6. Node.js 기본 모듈과 기초</li>
+          <Link to="/JsIndex0"  style={{ textDecoration: 'none' }}>
+            <li class="sidebar-index"> 6. Node.js 기본 모듈과 기초</li>
           </Link>
         
          
         </ul>
       </li>
-      <li class="sidebar-item"></li>
       <li class="sidebar-item">
-        <a href="">1</a>
+      <span class="sidebar-title" onClick={menuClick}>
+      Node.js
+        </span>
       </li>
-      <li class="sidebar-item">
-        <a href="">1</a>
-      </li>
-      <li class="sidebar-item">
-        <a href="">1</a>
-      </li>
-      <li class="sidebar-item">
-        <a href="">1</a>
-      </li>
-      <li class="sidebar-item">
-        <a href="">1</a>
-      </li>
-      <li class="sidebar-item">
-        <a href="">1</a>
-      </li>
-      <li class="sidebar-item">
-        <a href="">1</a>
-      </li>
+      
     </ul>
   );
 };
