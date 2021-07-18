@@ -79,7 +79,6 @@ const Sidebar = () => {
       Node.js
         </span>
       </li>
-      
     </ul>
   );
 };
