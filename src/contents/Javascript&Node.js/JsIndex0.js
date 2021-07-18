@@ -2,6 +2,7 @@ import React from "react";
 import ReactMarkdown from "react-markdown";
 import MainHeader from "../../components/MainHeader";
 import Sidebar from "../../components/Sidebar";
+import Rightbar from "../../components/Rightbar";
 import { render } from "react-dom";
 import "../../components/common.css";
 import ReactMarkDownEditor from "../../components/ReactMarkDownEditor";
@@ -137,6 +138,7 @@ const JsIndex0 = () => {
         <div className="contents">
           <ReactMarkDownEditor text={input} />
         </div>
+        <Rightbar/>
       </div>
     </div>
   );
