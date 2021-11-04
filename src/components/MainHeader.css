@@ -1,19 +1,23 @@
 header {
-    display: flex;
-    font-size: 20px;
-    position: sticky;
-    border-bottom: thin solid white;
-    height: 3rem;
-    background-color: whitesmoke;
- 
-    
+  display: flex;
+  font-size: 20px;
+  position: sticky;
+  border-bottom: thin solid white;
+  height: 3rem;
+  background-color: whitesmoke;
 }
 
-.header_blog_icon, .header_main_title {
-    margin-top:auto;
-    margin-bottom: auto;
+.header_blog_icon,
+.header_main_title {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.header_blog_icon {
+  margin-left: 1rem;
+  color: rgb(20, 20, 20);
 }
 
 .header_main_title {
-   margin-left: 1rem;
+  margin-left: 1rem;
 }

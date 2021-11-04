@@ -7,7 +7,7 @@ const MainHeader = () => {
   return (
     <header>
       <Link to="/" className="header_blog_icon">
-        아이콘자리
+        <i class="fas fa-memory lg"></i>
       </Link>
 
       <div className="header_main_title">Yoosh & MaeM</div>
