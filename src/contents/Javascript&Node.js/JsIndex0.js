@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import MainHeader from "../../components/MainHeader";
 import Sidebar from "../../components/Sidebar";
@@ -6,6 +6,10 @@ import Rightbar from "../../components/Rightbar";
 import { render } from "react-dom";
 import "../../components/common.css";
 import ReactMarkDownEditor from "../../components/ReactMarkDownEditor";
+import { FSx } from "aws-sdk";
+import fs from "fs";
+import { readFileSync } from "fs";
+import axios from "axios";
 
 const JsIndex0 = () => {
   const input = `## 0. 시작하기 앞서
@@ -130,6 +134,21 @@ const JsIndex0 = () => {
   - Rhino - 모질라 재단에서 운영, 오픈소스이고 자바로 개발되었다.
   - JavaScriptCore, Chakra, Nashron, JerryScript 등등`;
 
+  console.log(input);
+
+  useEffect(() => {
+    console.log(123);
+    axios({
+      method: "get",
+      url: "https://test-a12345.s3.ap-northeast-2.amazonaws.com/javascript/index_0.txt",
+      headers: {
+        Host: "Bucket.s3.amazonaws.com",
+      },
+    }).then(function (respnse) {
+      console.log(respnse.data);
+    });
+  });
+
   return (
     <div className="wrapper">
       <MainHeader />
@@ -138,7 +157,7 @@ const JsIndex0 = () => {
         <div className="contents">
           <ReactMarkDownEditor text={input} />
         </div>
-        <Rightbar/>
+        <Rightbar />
       </div>
     </div>
   );
