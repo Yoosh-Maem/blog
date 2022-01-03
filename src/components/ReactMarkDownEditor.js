@@ -9,6 +9,9 @@ const mkdStr = "";
 function ReactMarkDownEditor(props) {
   console.log(props.text);
   const [value, setValue] = React.useState(props.text);
+  if (props.text != value) {
+    setValue(props.text);
+  }
   return (
     <div className="container">
       <MDEditor.Markdown source={value} />
