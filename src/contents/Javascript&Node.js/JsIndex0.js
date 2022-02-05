@@ -38,7 +38,6 @@ const JsIndex0 = () => {
         <div className="contents">
           <ReactMarkDownEditor text={isLoading} />
         </div>
-        <Rightbar />
       </div>
     </div>
   );
