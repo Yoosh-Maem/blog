@@ -1,0 +1,8 @@
+.content_box_border {
+  display: flex;
+  border: 0.3rem solid #e0e0e0;
+  padding: 1rem;
+
+  margin: 0.5rem;
+  border-radius: 10%;
+}
