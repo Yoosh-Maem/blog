@@ -5,19 +5,19 @@ header {
   border-bottom: thin solid white;
   height: 3rem;
   background-color: whitesmoke;
+  justify-content: center;
 }
 
-.header_blog_icon,
-.header_main_title {
+.header_main {
   margin-top: auto;
   margin-bottom: auto;
+  text-decoration: none;
 }
 
-.header_blog_icon {
-  margin-left: 1rem;
+.header_main_title {
   color: rgb(20, 20, 20);
 }
 
-.header_main_title {
-  margin-left: 1rem;
+.center {
+  display: flex;
 }
