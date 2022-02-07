@@ -3,6 +3,13 @@
   border: 0.3rem solid #e0e0e0;
   padding: 1rem;
 
+  text-decoration: none;
   margin: 0.5rem;
   border-radius: 10%;
+}
+
+/* 없으면 색깔 보라색됨 인터넷 검사로 볼수 있음 */
+a:-webkit-any-link {
+  color: black;
+  cursor: pointer;
 }

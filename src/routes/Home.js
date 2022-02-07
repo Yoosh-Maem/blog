@@ -3,7 +3,7 @@ import MainHeader from "../components/MainHeader";
 import Sidebar from "../components/Sidebar";
 import ContentBox from "../components/ContentBox";
 import ContentWrap from "../components/ContentWrap";
-
+import { Link } from "react-router-dom";
 function Home() {
   return (
     <div class="wapper">
@@ -12,9 +12,12 @@ function Home() {
         {/* <Sidebar /> */}
 
         <ContentWrap>
-          <ContentBox
-            info={{ title: "java", icon: <i class="fab fa-node"></i> }}
-          />
+          <Link to="/JsIndex0" style={{ textDecoration: "none" }}>
+            <ContentBox
+              info={{ title: "java", icon: <i class="fab fa-node"></i> }}
+            />
+          </Link>
+
           <ContentBox
             info={{ title: "mysql", icon: <i class="fab fa-node"></i> }}
           />

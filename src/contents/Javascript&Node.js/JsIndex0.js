@@ -33,11 +33,7 @@ const JsIndex0 = () => {
     <div className="wrapper">
       <MainHeader />
       <div className="container">
-        <Sidebar />
-
-        <div className="contents">
-          <ReactMarkDownEditor text={isLoading} />
-        </div>
+        <ReactMarkDownEditor text={isLoading} />
       </div>
     </div>
   );
